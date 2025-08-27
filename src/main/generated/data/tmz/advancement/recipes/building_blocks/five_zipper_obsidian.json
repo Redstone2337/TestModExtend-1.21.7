@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_four_zipper_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tmz:four_zipper_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tmz:five_zipper_obsidian"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_four_zipper_obsidian"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tmz:five_zipper_obsidian"
+    ]
+  }
+}

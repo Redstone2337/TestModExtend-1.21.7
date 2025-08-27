@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tmz:block/nine_zipper_obsidian"
+  }
+}

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.miaomiao.extend.block.ModBlocks;
 import net.miaomiao.extend.food.ModConsumableComponents;
 import net.miaomiao.extend.food.ModFoodComponents;
+import net.miaomiao.extend.item.ModItemGroups;
 import net.miaomiao.extend.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +28,7 @@ public class TestModMiaomiaozi implements ModInitializer {
         ModBlocks.init();
         ModConsumableComponents.init();
         ModFoodComponents.init();
+        ModItemGroups.init();
 
 		LOGGER.info("Hello Fabric world!");
 	}

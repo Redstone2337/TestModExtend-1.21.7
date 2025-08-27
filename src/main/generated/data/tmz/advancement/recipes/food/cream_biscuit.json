@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cream_bun": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tmz:cream_bun"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tmz:cream_biscuit"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cream_bun"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tmz:cream_biscuit"
+    ]
+  }
+}
