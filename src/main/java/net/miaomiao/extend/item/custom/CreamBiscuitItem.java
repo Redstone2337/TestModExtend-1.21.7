@@ -49,8 +49,14 @@ public class CreamBiscuitItem extends Item {
                             600, 1, false, true
                     )
             );
+            player.addStatusEffect(
+                    new StatusEffectInstance(
+                            StatusEffects.JUMP_BOOST,
+                            600, 1, false, true
+                    )
+            );
         }
 
-        return super.finishUsing(stack, world, user);
+        return stack.isEmpty() ? ItemStack.EMPTY : new ItemStack(stack.getItem());
     }
 }
