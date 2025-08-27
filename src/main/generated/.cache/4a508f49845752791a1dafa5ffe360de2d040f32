@@ -1,4 +1,5 @@
 // 1.21.7	-999999999-01-01T00:00:00	TestModMiaomiaozi/
+ec817c0f09b8df2003818d996a49be61ceb02654 data/tmz/advancement/recipes/building_blocks/bedrock.json
 7669a337b78f4b2c992dd3ba4c12267b12030094 data/tmz/advancement/recipes/building_blocks/eight_zipper_obsidian.json
 7852eb1ad94eb977067052f26c61e5c394a4cd0f data/tmz/advancement/recipes/building_blocks/five_zipper_obsidian.json
 9ac4d79c4f2435784fe3696988745c33acf90195 data/tmz/advancement/recipes/building_blocks/four_zipper_obsidian.json
@@ -10,6 +11,7 @@ bba2e7f67ed1e489c35dad1a6edc9e6125d06ea6 data/tmz/advancement/recipes/building_b
 180495bc00d5d44a406b5ff96f6e424266144fda data/tmz/advancement/recipes/building_blocks/two_zipper_obsidian.json
 301aa255ab6c86dd4ff2cda1498a3ec1f9d5daad data/tmz/advancement/recipes/food/cream_biscuit.json
 ae03f657f30092e92fddb6392306226abfad22d3 data/tmz/advancement/recipes/food/cream_bun.json
+4b6572494f3c0bb8f971130714cdefc8fb0b3efa data/tmz/recipe/bedrock.json
 f12ee4d95bf052d3d35d56d6a8fab48d7f9a9924 data/tmz/recipe/cream_biscuit.json
 6ba93e1f9d36fce4d82481480d8ade95fa87cb90 data/tmz/recipe/cream_bun.json
 dce5443070e2c764581eebef58f355ddf582fd14 data/tmz/recipe/eight_zipper_obsidian.json

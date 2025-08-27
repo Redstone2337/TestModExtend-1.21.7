@@ -116,6 +116,13 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                         .criterion("has_cream_bun", conditionsFromItem(ModItems.CREAM_BUN))
                         .offerTo(recipeExporter);
 
+                createShaped(RecipeCategory.BUILDING_BLOCKS,Blocks.BEDROCK)
+                        .pattern("###")
+                        .pattern("###")
+                        .pattern("###")
+                        .input('#', ModBlocks.NINE_ZIPPER_OBSIDIAN)
+                        .criterion("has_nine_zipper_obsidian", conditionsFromItem(ModBlocks.NINE_ZIPPER_OBSIDIAN))
+                        .offerTo(recipeExporter);
             }
         };
     }

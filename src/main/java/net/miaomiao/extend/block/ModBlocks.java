@@ -20,7 +20,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(100.0F, 1200.0F)
     );
 
     public static final Block TWO_ZIPPER_OBSIDIAN = register("two_zipper_obsidian",
@@ -28,7 +28,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(150.0F, 1200.0F)
     );
 
     public static final Block THREE_ZIPPER_OBSIDIAN = register("three_zipper_obsidian",
@@ -36,7 +36,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(200.0F, 1200.0F)
     );
 
     public static final Block FOUR_ZIPPER_OBSIDIAN = register("four_zipper_obsidian",
@@ -44,7 +44,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(250.0F, 1200.0F)
     );
 
     public static final Block FIVE_ZIPPER_OBSIDIAN = register("five_zipper_obsidian",
@@ -52,7 +52,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(300.0F, 1200.0F)
     );
 
     public static final Block SIX_ZIPPER_OBSIDIAN = register("six_zipper_obsidian",
@@ -60,7 +60,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(350.0F, 1200.0F)
     );
 
     public static final Block SEVEN_ZIPPER_OBSIDIAN = register("seven_zipper_obsidian",
@@ -68,7 +68,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(400.0F, 1200.0F)
     );
 
     public static final Block EIGHT_ZIPPER_OBSIDIAN = register("eight_zipper_obsidian",
@@ -84,7 +84,7 @@ public class ModBlocks {
                     .mapColor(MapColor.BLACK)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool()
-                    .strength(450.0F, 1200.0F)
+                    .strength(500.0F, 1200.0F)
     );
 
 
